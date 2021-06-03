@@ -14,5 +14,9 @@
 	{
 		"pkg": "ionic-monri-android-ios",
 		"classpath": "com.monri.ionic.IonicMonriPlugin"
+	},
+	{
+		"pkg": "ionic-monri-helper",
+		"classpath": "com.monri.plugins.helper.MonriHelperPlugin"
 	}
 ]
