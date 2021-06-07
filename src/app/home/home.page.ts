@@ -1,7 +1,7 @@
 import {Component, ElementRef, ViewChild} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {IonicMonri} from '../../../../ionic-monri-android-ios';
 import {MonriHelper} from 'ionic-monri-helper';
+import {IonicMonri} from '../../../../ionic-monri-android-ios';
 
 @Component({
   selector: 'app-home',
@@ -51,12 +51,10 @@ export class HomePage {
     ).then(r => JSON.stringify(r))
       .then(result => {
         this.paragraphElement.nativeElement.innerText = 'result: ' + result;
-        // IonicMonri.showMessage(result);
       })
       .catch(e => {
         console.log('ERROR');
         this.paragraphElement.nativeElement.innerText = 'error: ' + e;
-        // IonicMonri.showMessage(e.toString());
       });
 
   }
