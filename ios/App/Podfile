@@ -13,10 +13,10 @@ def capacitor_pods
   pod 'CapacitorHaptics', :path => '../../node_modules/@capacitor/haptics'
   pod 'CapacitorKeyboard', :path => '../../node_modules/@capacitor/keyboard'
   pod 'IonicMonriAndroidIos', :path => '../../../ionic-monri-android-ios'
-  pod 'IonicMonriHelper', :path => '../../ionic-monri-helper'
 end
 
 target 'App' do
   capacitor_pods
   # Add your Pods here
+  pod 'Alamofire', '~> 4.0'
 end

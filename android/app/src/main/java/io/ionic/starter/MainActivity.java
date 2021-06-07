@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import com.getcapacitor.BridgeActivity;
 import com.monri.ionic.IonicMonriPlugin;
-import com.monri.plugins.helper.MonriHelperPlugin;
+import io.ionic.starter.monri_helper_plugin.monri_http_helper.MonriHelperPlugin;
 
 public class MainActivity extends BridgeActivity {
   @Override

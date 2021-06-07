@@ -13,7 +13,6 @@ dependencies {
     implementation project(':capacitor-haptics')
     implementation project(':capacitor-keyboard')
     implementation project(':ionic-monri-android-ios')
-    implementation project(':ionic-monri-helper')
 
 }
 
